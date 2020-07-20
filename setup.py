@@ -9,7 +9,7 @@ with open(os.path.join(here, 'README.md')) as f:
 
 setup(
     name='torchvision4ad',
-    version='0.1.0',
+    version='0.1.1',
     description='torchvision for anomaly detection',
     long_description=readme,
     long_description_content_type='text/markdown',
