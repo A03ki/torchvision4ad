@@ -18,7 +18,7 @@ setup(
     install_requires=['torchvision'],
     url='https://github.com/A03ki/torchvision4ad',
     license='MIT',
-    packages=['torchvision4ad'],
+    packages=['torchvision4ad', 'torchvision4ad/datasets'],
     keywords='torchvision anomaly detection',
     classifiers=[
         'License :: OSI Approved :: MIT License',
