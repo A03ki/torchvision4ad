@@ -15,6 +15,7 @@ Licensed under BSD 3-Clause
 class MVTecAD(ImageFolder):
     """
     `MVTec Anomaly Detection <https://www.mvtec.com/company/research/datasets/mvtec-ad/>`_ Dataset.
+
     Args:
         root (string): Root directory of the MVTec AD Dataset.
         dataset_name (string, optional): One of the MVTec AD Dataset names.
@@ -26,11 +27,13 @@ class MVTecAD(ImageFolder):
         download (bool, optional): If true, downloads the dataset from the internet and
             puts it in root directory. If dataset is already downloaded, it is not
             downloaded again.
+
      Attributes:
         classes (list): List of the class names sorted alphabetically.
         class_to_idx (dict): Dict with items (class_name, class_index).
         imgs (list): List of (sample path, class_index) tuples.
         targets (list): The class_index value for each image in the dataset.
+
     Note:
         The normal class index is 0.
         The abnormal class indexes are assigned 1 or higher alphabetically.
